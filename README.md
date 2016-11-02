@@ -22,7 +22,7 @@ public class mywebsample extends HttpServlet {
 }
 ```
 
-# Build
+## Build
 
 This is a Maven2 project with dependencies on public libraries that should build via mvn directly.
 
@@ -37,7 +37,7 @@ sol-tomcat% mvn install
 ...
 ```
 
-# Deploy
+## Deploy
 
 Install the Solace libraries and sol-tomcat-X.Y.Z.jar into the `[TOMCAT]/lib/` directory.
 
@@ -48,7 +48,7 @@ different places. Concentrate on fixing your application.
 Create a webapp/servlet project with whatever your preferred toolset; HttpServlet is recommended for 
 ease of use. Package your build artifacts as a .WAR file, and deploy the app to Tomcat.
 
-# Documentation
+## Documentation
 
 There is an integration guide available on the Solace Developers Portal:
 
