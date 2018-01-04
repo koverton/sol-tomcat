@@ -46,7 +46,8 @@ Install the Solace libraries and sol-tomcat-X.Y.Z.jar into the `[TOMCAT]/lib/` d
 the additional `SolTomcat.zip` artifact to retrieve all the libraries for deployment.
 
 Create a webapp/servlet project with whatever your preferred toolset; HttpServlet is recommended for 
-ease of use. Package your build artifacts as a .WAR file, and deploy the app to Tomcat.
+ease of use. Package your build artifacts as a .WAR file, and deploy the app to Tomcat. An example can 
+be found at https://github.com/koverton/solwebsample
 
 ## Documentation
 
