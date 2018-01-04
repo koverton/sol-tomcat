@@ -37,13 +37,13 @@ sol-tomcat% mvn install
 ...
 ```
 
+A ZIP package is also produced that contains a `lib/` directory with all the JARs that should be 
+deployed to the `[TOMCAT]/lib/` directory.
+
 ## Deploy
 
-Install the Solace libraries and sol-tomcat-X.Y.Z.jar into the `[TOMCAT]/lib/` directory.
-
-Add the resource configuration to the server’s `[TOMCAT]/conf/context.xml` and it will be available to
-any deployed application. If you have problems accessing it, do not flail around putting the Resource in
-different places. Concentrate on fixing your application.
+Install the Solace libraries and sol-tomcat-X.Y.Z.jar into the `[TOMCAT]/lib/` directory. You can use 
+the additional `SolTomcat.zip` artifact to retrieve all the libraries for deployment.
 
 Create a webapp/servlet project with whatever your preferred toolset; HttpServlet is recommended for 
 ease of use. Package your build artifacts as a .WAR file, and deploy the app to Tomcat.
